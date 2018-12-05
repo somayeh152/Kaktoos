@@ -1,0 +1,100 @@
+
+#post-holder, #comment{
+  padding: 70px 150px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+  color: #444;
+  word-spacing: -1px;
+  line-height: 25px;
+}
+
+#post-holder h1
+{
+  font-size: 32px;
+  font-weight: bold;
+  color: #1c1c1c;
+  padding-bottom: 30px;
+  word-spacing: -4px;
+}
+
+#post-holder h2{
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+
+#post-tags{
+  padding-top: 30px;
+}
+
+#post-tags>a{
+  padding-left: 10px;
+  color: #ff9600;
+  text-decoration: none;
+}
+
+.next-prv-post{
+  padding: 0 150px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #444;
+}
+
+.next-prv-post a{
+  text-decoration: none;
+  color: #444;
+}
+
+.next-prv-post a:hover{
+  color: #ff9600;
+}
+
+#next{
+  float: left;
+}
+
+#prv{
+  float: right;
+}
+
+#comment h3
+{
+  clear: both;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#comment input
+{
+   max-width: 400px;
+   margin-bottom: 5px;
+   font-size: 12px;
+}
+
+#comment textarea{
+    max-width: 800px;
+    font-size: 12px;
+}
+
+#comment .btn
+{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #000;
+    color: #ddd;
+    border-color: transparent;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  #post-holder , #comment{
+    padding: 50px;
+  }
+  #comment input , #comment textarea{
+    max-width: 800px;
+  }
+}
